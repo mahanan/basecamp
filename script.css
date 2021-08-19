@@ -1,4 +1,18 @@
-h1, p {
+html {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+}
+div > img {
+    width: 650px;
+    height: 300px;
+    margin-top: 10px;
+}
+.date {
+    font-weight: bold;
+}
+.date2 {
+    font-size: 11px;
+}
+hr {
+    margin: 0 45px;
 }
