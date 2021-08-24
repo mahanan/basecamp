@@ -27,6 +27,6 @@ h1, p {
     margin-top: 25px;
     cursor: pointer;
 }
-btn:hover {
-    background-color: blue;
+.btn:hover {
+    background-color: rgb(85, 21, 5);
 }
