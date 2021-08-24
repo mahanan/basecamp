@@ -27,3 +27,6 @@ h1, p {
     margin-top: 25px;
     cursor: pointer;
 }
+btn:hover {
+    background-color: blue;
+}
