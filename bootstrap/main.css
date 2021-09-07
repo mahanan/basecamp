@@ -1,0 +1,60 @@
+.navbar{ 
+    background:#eb2308;
+}
+
+.nav-link { 
+    color: #f4f4f4; cursor: pointer;
+    margin-right: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.nav-link:hover{
+    background: #f4f4f4; 
+    color: #f97300;
+}
+.carousel{
+    margin-top: 20px;
+}
+.carousel-item{
+    text-align: center;
+    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.height {
+    max-height: 200px;
+}
+.note
+{
+    text-align: center;
+    height: 80px;
+    background-color: rgb(206, 39, 17);
+    color: #fff;
+    font-weight: bold;
+    line-height: 80px;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+.form-content
+{
+    padding: 5%;
+    border: 1px solid #ced4da;
+    margin-bottom: 2%;
+    text-align: center;
+}
+.form-control{
+    border-radius:1.5rem;
+}
+
+.btnSubmit{
+    border:none;
+    border-radius:1.5rem;
+    padding: 1%;
+    width: 20%;
+    cursor: pointer;
+    background: #d81305;
+    color: #fff;
+}
+footer {
+    background-color: rgb(241, 22, 14);
+    color: #fff;
+}
