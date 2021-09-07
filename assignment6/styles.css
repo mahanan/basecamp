@@ -1,0 +1,132 @@
+/* ---Universal page settings --- */
+* {
+    /* padding: 0.5rem; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid rgb(220,220,220); */
+}
+
+/* --- Universal Body styles --- */
+body {
+    border: none;
+    font-family: 'Work Sans', sans-serif;
+}
+section {
+    padding: 5%;
+}
+/* ---- Typography Styles ---- */
+h1 {
+    font-size: 4rem;
+}
+
+.bg-dark {
+    background-color: #001527;
+    color: #fff;
+}
+a {
+    color: inherit;
+}
+a:hover {
+    color: #01657D;
+}
+.center {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+/* --- Header Styles --- */
+header {
+    background-image: url('http://source.unsplash.com/IgWNxx7paz4');
+    background-size: cover;
+    color: #fff;
+    padding: 20vh 5%;
+    min-height: 20vh;
+    text-align: center;
+}
+header a {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+.nav {
+    margin-top: -8rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid;
+    padding-bottom: 0.5rem;
+
+}
+.centered {
+    text-align: center;
+    border-bottom: 2px solid black;
+    line-height: 2.5rem;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    background-color: rgb(163, 112, 18);
+    letter-spacing: 0.5rem;
+}
+.luxury {
+    font-size: 1rem;
+    border: 1px solid;
+    margin-top: 3rem;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    background-color: orange;
+    color: #001527
+}
+.nav a {
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding-left: 0.9rem;
+    font-weight: 600;
+    color: orange;
+}
+.nav a:hover{
+    color: #01657D;
+}
+/* Image gallery */
+
+.bg-image {
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    margin-top: -2rem;
+    width: 30%;
+    padding-bottom: 30%;
+}
+.car1 {
+    background-image: url('https://source.unsplash.com/CMzmQNU-DGE'); 
+}
+.car2 {
+    background-image: url('https://source.unsplash.com/3ZUsNJhi_Ik');
+}
+.car3 {
+    background-image: url('https://source.unsplash.com/f_SDCASisgs');
+}
+.bg-image h2 {
+    color: rgb(141, 96, 5);
+    text-align: center;
+}
+footer {
+    padding: 7% 10%;
+    text-align: center;
+    margin-top: -2rem;
+}
+footer nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1rem;
+    display: inline-block;
+    color: orange;
+}
+.bg-dark h2{
+    font-size: 2rem;
+    margin-top: -3rem;
+    margin-bottom: 1rem;
+    color: orange;
+    text-transform: uppercase;
+}
+.bg-dark p{
+    margin-bottom: 1rem;
+}
