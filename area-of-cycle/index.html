@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Area and Circumference of a circle</title>
+</head>
+<body>
+    <div class="body-container">
+        <h1>Circle (Area - Circumference)</h1>
+        <form class="form-container">
+          <input class="circumference" placeholder="Input Radius Value" type="text" id="radius" name="input-radius"/>
+
+          <br />
+          <br />
+          <div class="area-radio-option">
+            <label class="option-area">
+              <input type="radio" checked="checked" name="radio" id="area" />
+              Area
+            </label>
+            <label class="option-circumference">
+              <input type="radio" name="radio" id="circumference" />
+              Circumference
+            </label>
+          </div>
+  
+          <button id="btn-button" class="btn-button">Calculate</button>
+          <div class="output-area">
+            <p class="final-result">Output</p>
+            <input class="output" id="result" type="text" disabled />
+          </div>
+        </form>
+      </div>
+</body>
+</html>

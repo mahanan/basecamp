@@ -1,0 +1,73 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 15px 0;
+    font-family: "Roboto", sans-serif;
+  }
+  .body-container {
+    border: 1px solid;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 70%;
+    height: calc(100vh - 30px);
+  }
+  h1 {
+    margin-top: 20px;
+  }
+  .form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .area-radio-option{
+    display: flex;
+    flex-direction: row;
+  }
+  .option-area {
+    margin-right: 10px;
+  }
+  .btn-button {
+    padding: 10px 40px;
+    border: 1px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: gray;
+    color: #fff;
+  }
+  .output {
+    width: 90%;
+    height: 200px;
+    text-align: center;
+    outline: none;
+    font-size: 18px;
+  }
+  .output-area {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .final-result {
+    padding: 10px 0;
+    width: 90%;
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    
+  }
+  .circumference {
+    width: 90%;
+    outline: none;
+    padding-left: 10px;
+    height: 40px;
+  }
