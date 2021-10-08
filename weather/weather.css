@@ -4,7 +4,7 @@
 }
 .main{
     height: 100vh;
-    background-image: url('img1.jpg');
+    background-image: url('my-weather.jpg');
     background-size: cover;
     background-position: bottom;
     font-family: 'Quicksand', sans-serif;
