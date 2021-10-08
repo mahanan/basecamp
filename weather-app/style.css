@@ -4,7 +4,7 @@
 }
 .main{
     height: 100vh;
-    background-image: url('/weather-app/imagem.jpg.crdownload');
+    background-image: url('/weather-app/image/weather.jpg');
     background-size: cover;
     background-position: bottom;
     font-family: 'Quicksand', sans-serif;
